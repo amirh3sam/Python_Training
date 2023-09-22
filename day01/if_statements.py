@@ -1,3 +1,34 @@
+
+"""
+if statement Decision-Making
+1- Single-if
+2- if-Else
+3- Multi Branch of
+4- Nested if
+
+ in Paython no more {} only space(Tab) before statements
+ write if then the Condition then semi-column then next line give a space and then your statement
+if condition:
+    Statements
+    # is better to use Tab because if you use one space and later on you gonna have multi if inside each need to
+    count the number of space so use one tab then start write your statement
+# any time you did not know your statement, and later you want to write it in you can use pass keyword
+if condition:
+    pass
+    # so in this case your if statement is not going to get any error and also later you can add your statement
+"""
+
+
+if True:
+    pass
+
+
+# the first print statement with print if condiont is ture but second one because this is not space is not inside the if
+# block
+# if True:
+#   print ('Python Programming')
+#print ('Python Programming') by removing the space we get out of the block
+
 if False:
     print('Python Programming')
 
@@ -15,14 +46,14 @@ if(true){
 }
 
 """
-
+# also you can yous logical operator in condition as long as at the end you get boolean
 s = 'Hello World'
 
 if 'H' and 'W' in s:
     print(s, 'has', 'H and W')
 
 print('------------------------------------')
-
+# now you want to create condition for condition 2
 if score >= 60:
     print('Passed')
 else:
@@ -50,6 +81,8 @@ print(result)
 
 print('---------------------------------')
 
+
+# like you are not able to change the order if elif and else
 num = 100
 
 result = None
@@ -66,13 +99,13 @@ print(result)
 print('---------------------------------')
 
 num = 200
-
+# Ternary: ONLY works with if and else block not with elif
 result2 = 'Positive' if num >= 0 else 'Zero'
 
 print(result2)
 
 print('---------------------------------')
-
+# in here we have pre-condition
 score = -300
 
 if 0 <= score <= 100:
