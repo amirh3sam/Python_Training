@@ -46,7 +46,7 @@ print(True or False)
 
 s = 'Java Python C# C++'
 
-print( 'Java' or 'Ruby' in s)
+print( 'Java' or 'Ruby' in s)  # in here ONLY for OR operators when we have one of them True will print it in console
 
 age = 29
 citizen_ship = 'USA'
@@ -54,7 +54,7 @@ is_eligible = age >= 18 and citizen_ship == 'USA'
 
 print(is_eligible)
 
-has_java = 'Java' in s
+has_java = 'Java' in s # here we are saying if Java is included in S ?!
 print(has_java)
 
 # !contains()
@@ -68,7 +68,7 @@ print('----------------------------------')
 s = 'Java'
 s2 = 'Java'
 
-print( s is s2) # to heck if two variables are referencing to the same objects ( == operator of java)
+print( s is s2) # to check if two variables are referencing to the same objects ( == operator of java)
 
 
 
