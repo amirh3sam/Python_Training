@@ -4,3 +4,76 @@ then on the bottom click on "Python Packages" and import it
 and use these class after that
 -------------------------------------------------
 
+in paython we do not have cast ing like java
+we have constractor for str() , int() , float()
+
+-------------------------------------------------
+
+
+Concatenation with {} with format or f
+
+
+-------------------------------------------------
+
+Division in Java it will give you int but in
+Paython it will give you float
+
+--------------------------------------------------
+
+shortHand Operator the same with Java
+
+        a += 5
+-----------------------------------------
+
+if you want to identify two variables are refreshing to the same object
+in Paython use 'is' like equal in java and 'is not'
+
+
+---------------------------------------
+
+in paython we do not have contained method is you wana verfiy something that is included in sequence
+we used 'in' and 'not in' for not included
+
+------------------------------------------
+
+And, or Operator
+
+you can group some characters in and see if they are included or not
+s= 'Hello World'
+print('H' and 'W' in s)
+------------------------------------------
+
+if statement
+
+if condition:
+-----statements
+  ^
+  |
+  indentaion(white space before statements) neeed for statement use tab
+
+--------------------------------------------
+instead elseif we have elif in Paython
+
+----------------------------------------------
+---nested if-----
+
+if condition:
+    statements
+    if Condition:
+        statements
+all these white space is so important that you should pay attention to it
+-----------------------------------------------------------------------
+
+----input()----
+input() method is like scanner in java
+it waits unit user provides input and returns it as a string.
+ou can use constractor to do cast at the moment user want to type
+------------------------------------------------
+
+
+
+
+
+
+
+
