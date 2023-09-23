@@ -1,0 +1,9 @@
+Packages in python treat as dependencies
+but in Java is only like folder
+--------------------------------------
+pip - The Python Package Installer
+you can import any packages by clicking on Python package
+------------------------------------
+in paython we do not have default value
+so any where in funtion you need default value you need to set by your self
+---------------------------------------
