@@ -40,14 +40,15 @@ class Employee:
     # like toString method in java
     # is a return method
     # is overriding
-    # __dict__ is like map in java key and value
+    # __dict__ is like map in java key and value will give you all variable name and data store in it.
     # to get the dictionary of this class to get every object of the class
-
+    # type(self). is like getClass() and .__name__ is like getSimpleName() in java  --->to get class Name
     def __str__(self):  # def keyword is for defining the function because is inside the class is  for defining method
         return f'{type(self).__name__}{self.__dict__}'
-    # type(self).__name__ --> is give you the name of class name type will give class '--main--.Employee thats why we
-    # add
+    # type(self) --> is give you the full name of class, will give you this : <class '__main__.Employee'>
+    # that's  why we add :
     # .__name__ so just get a class name;
+    # the __ is for private will not be accessible outside the class
 
 
 employee1 = Employee()

@@ -42,6 +42,19 @@ class Dog:
     then defined the scop of class by adding field
 
 --------------------------------
+tuple sized size and can not increase and decrease , and the difference with Array is  values they are not changeable
+
+in Java Array are like int[] numbers = { 10,20,30,40,0} //Array literal
+-- in order to create the tuple  only name and data inside ( ) or optional can do this : score =45,34,23,12
+IF there is only one Tuple one comma ofter that is a MUST     score = 54,
+
+you can mix data inside the Tuple because dynamic data Type
+ALSO tuple  accept Slicing TOO!!!!  numbers =10,20,30,40,50
+                                    some_nums = numbers[:3] --> data from index 0 to 2
+
+
+
+
 
 
 

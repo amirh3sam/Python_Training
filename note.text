@@ -7,6 +7,10 @@ you can import any packages by clicking on Python package
 in paython we do not have default value
 so any where in funtion you need default value you need to set by your self
 ---------------------------------------
+# if you want the two tuples are have same contents  we use '=='
+# if you want the two tuples referencing to the same object we use 'is'
+# in java was different to see two data referencing to the same object we use ==
+-----------------------------------------------------------------------------------
 -> in java import was using to import class
 -> in Paython you can import module and the packages
 -> each package in Paython has a constractor __init__.py
@@ -48,6 +52,20 @@ so if we do not have this toString method we will get hash code
 in python to prevent to get the hash code we can use __str__() method
 Build-in __str__() method is used for controlling what should be return when the class object is represented as a string
 -------------------------------------------------------------------
+only when we have inheritance protected will acceptable out side the class
+---------------------------------------------------------------
+            Class                       vs                      Object
+
+Class is a collection of similar object                 Object is an instance of a class
+
+class is conceptual(is a template)                      Object is real
+
+NO memory is allocated for a class                      Each object has its own memory
+
+Class can exist without any objects                      Object can not exist without a class
+----------------------------------------------------------------------------------------------
+'tuples' is one of the data structure in "Paython" like 'array' in "Java"
+---------------------------------------------------------------------------------------------
 
 
 
