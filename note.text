@@ -7,3 +7,15 @@ you can import any packages by clicking on Python package
 in paython we do not have default value
 so any where in funtion you need default value you need to set by your self
 ---------------------------------------
+-> in java import was using to import class
+-> in Paython you can import module and the packages
+-> each package in Paython has a constractor __init__.py
+-> for module you can just create Directory
+------------------------------------
+access modifier:
+
+just the function name without any _ : public
+function name wit one _ : protected
+function name wit two __ :  private
+
+-----------------------------------------

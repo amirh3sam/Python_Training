@@ -25,9 +25,12 @@ To create a function we need to use the def keyword
 ------------------------------------------------------------
 No overloading in paython there is something called default argument you can treat as method overloading
 you just need to create one method with the max argument then when you called 2 or 3 or max argument
--------------------------------------------------------------
-
-
+-------------------------------------------------------
+when you use import with import all of them
+if you just want to import only part of files use From keyword
+like this : import function --> give you all the function in functions
+now i just need the sum function : from function import sum
+From Keyword is like static import in java
 
 
 

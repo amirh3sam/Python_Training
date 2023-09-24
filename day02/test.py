@@ -1,5 +1,5 @@
 # import utility
-
+import functions
 from utility import sum, calculate  # similar to static import of java
 
 result = sum(10, 20)
@@ -17,7 +17,8 @@ utility.sum(10, 20)
 utility.calculate(10, 30, "*")
 
 print('---------------------------------------------------------')
-
+# this is called alias name define, so you can get shorter name
+# we have this in sql
 import utility as u
 
 u.sum(10, 20)
