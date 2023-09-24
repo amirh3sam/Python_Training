@@ -31,7 +31,17 @@ if you just want to import only part of files use From keyword
 like this : import function --> give you all the function in functions
 now i just need the sum function : from function import sum
 From Keyword is like static import in java
+----------------------------------
 
+create custom class:
+1- create instance variable
+2- create instance method(is function that you declared in class) but are not calling instance we call it object variable object method
+
+class keyword then the class name then semicolon
+class Dog:
+    then defined the scop of class by adding field
+
+--------------------------------
 
 
 

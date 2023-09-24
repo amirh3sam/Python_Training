@@ -17,5 +17,37 @@ access modifier:
 just the function name without any _ : public
 function name wit one _ : protected
 function name wit two __ :  private
-
 -----------------------------------------
+in Java constractor is for instantiating the object and setting the instance variable
+in Paython constractor is for instantiating the object and setting the instance variable as well as declaring the instance variable
+----------------------------------------------------------
+'self' keyword which act as 'this' keyword also is use for declaring instance variable ( self.name = name)
+self is for accessing the instance variable
+---------------------------------------------------
+creating object --> dog1 = Dog('Lucy', 'Husky', 4 , 'White')
+                reference name = class name (argument of constractor : name ,breed ,age, color)
+--------------------------------------------
+->Build-in __init()-- method used for defining & initializing the attributes("constractor")
+->Belongs to the object, and object has its own memory
+-> Get executed when and object is created from the class
+---------------------------------------------------------
+in Python there is no STATIC variable like java
+how ever there is way to achieve similar to treat as static
+---->you can called the through the class not inside the constractor
+class Employee:
+    is_human =True --> this is static variable
+
+    def __init__ (self,name,salary):
+    self.name --> instance variable
+
+----------------------------------------------------------
+
+in java we had toString method : that is for allow me to get string version of the object
+so if we do not have this toString method we will get hash code
+
+in python to prevent to get the hash code we can use __str__() method
+Build-in __str__() method is used for controlling what should be return when the class object is represented as a string
+-------------------------------------------------------------------
+
+
+
