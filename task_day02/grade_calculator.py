@@ -17,3 +17,69 @@
 
 """
 
+print('-------------------------8.1------------------------')
+
+
+def Enter_score():
+    score = int(input('Enter your score : '))
+    while 0 <= score <= 100:
+        score = int(input('Enter your score : '))
+
+
+Enter_score()
+
+print('-------------------------8.2------------------------')
+
+
+def score_cal():
+    score = int(input('Enter your score : '))
+    while 0 <= score <= 100:
+        if 0 <= score <= 100:
+
+            if score >= 90:
+              grade = 'A'
+            elif score >= 80:
+                grade = 'B'
+            elif score >= 70:
+                grade = 'C'
+            elif score >= 60:
+                grade = 'D'
+            else:
+                grade = 'F'
+            print(f"Your grade is: {grade}")
+            break
+        else:
+            print("Invalid Entry: Please enter a score between 0 and 100.")
+
+
+score_cal()
+
+print('-------------------------8.3------------------------')
+
+
+def more_request_score():
+    while True:
+        score = int(input('Enter your score: '))
+
+        if 0 <= score <= 100:
+            if score >= 90:
+                grade = 'A'
+            elif score >= 80:
+                grade = 'B'
+            elif score >= 70:
+                grade = 'C'
+            elif score >= 60:
+                grade = 'D'
+            else:
+                grade = 'F'
+
+            print(f"Your grade is: {grade}")
+
+            answer = input('Would you like to continue (Yes/No)? ')
+            if answer.lower() != 'yes':
+                break
+        else:
+            print("Invalid Entry: Please enter a score between 0 and 100.")
+
+
+more_request_score()
