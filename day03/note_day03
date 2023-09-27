@@ -1,0 +1,28 @@
+list : is like list in java  and is a collection size is dynamic and can be increase and decreased
+The values in the list are
+to create list by [] elements are ordered , changeable can be duplicated and can be of any data type
+
+we can do forward or backward indexing
+updating list: we need to giv the range of indexes of a specified range within the square bracket and define a list
+with new elements then assigned them to the specified range
+[start_index : end_index] = [list of new elements]
+
+# we can convert list to tuple and tuple to list but not Dictionary because its collection of pairs!
+-------------------------------------------------------------------------------------------
+when we looking for the two object referencing the same object
+# THE REASON is the tuple is immutable just like the string when you have string literal the is only one objet memory
+# located in the string pool since the tuple is immutable there is guaranty  the those element will not change so if
+# you have two tuple object that has exact same contents gonna one objet will locate in python memory
+# but list is changeable when you create list could be change later that is why even if they have exact same contents
+# for each gonna be memory located
+-----------------------------------------------------------------------------------------
+
+                                     List Comprehensions
+ used to create new list based the values of and existing iterable
+
+ new_list = [ var_name for var_name in iterable if condition]
+                |__Must be same__|      |              |_________> Condition for filtering the elements of the iterable
+                                        must be List/set/Tuple
+  -------------------------------------------------------------------------------------------------
+
+

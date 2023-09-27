@@ -67,5 +67,12 @@ Class can exist without any objects                      Object can not exist wi
 'tuples' is one of the data structure in "Paython" like 'array' in "Java"
 ---------------------------------------------------------------------------------------------
 
+# we can convert list to tuple and tuple to list but not Dictionary because its collection of pairs!
 
+-----------------------------------------------------------------------------------------------------
+
+memory allocation for tuple  --> if you have multiple tuple that have exact same contents only one object will be allocated
+
+but when you have multiple list of objects that has the same contents  each object will be located separately in the python memory
+----------------------------------------------------------------------------------------------------------
 

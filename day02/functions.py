@@ -144,3 +144,10 @@ concat('Python', 3, 2.5, True, False)
 
 Dynamic Typing
 """
+
+
+def any(n1: int, n2: int) -> int:
+    print(n1 + n2)
+
+
+any(2, 4)
