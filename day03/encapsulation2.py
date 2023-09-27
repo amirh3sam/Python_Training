@@ -40,5 +40,6 @@ class Person:
 
 person1 = Person()
 
-person1.person_name = "Daniel"
+person1.person_name = "Daniel"   # that's for setter because now we have variable we assign it to string
 print(person1.person_name)
+

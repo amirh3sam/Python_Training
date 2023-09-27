@@ -16,8 +16,7 @@ so any where in funtion you need default value you need to set by your self
 -> each package in Paython has a constractor __init__.py
 -> for module you can just create Directory
 ------------------------------------
-access modifier:
-
+Access Modifier:
 just the function name without any _ : public
 function name wit one _ : protected
 function name wit two __ :  private
@@ -74,5 +73,85 @@ Class can exist without any objects                      Object can not exist wi
 memory allocation for tuple  --> if you have multiple tuple that have exact same contents only one object will be allocated
 
 but when you have multiple list of objects that has the same contents  each object will be located separately in the python memory
-----------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------- -
+                                                       Encapsulation :
+
+An object hides its internal data from code that's outside the class
+Hide an attribute by giving private access modifier and making the methods that access those fields public
+getter and setter
+            public
+            protected (_)
+            Private (__)
+------------------------------------------------------------------------------------------------------------
+generating getter and setter :
+
+                     @property
+  from code / insert live Temple (ctrl + j ) --> ask which short cut you looking for --> prop  (property getter/setter)
+
+      @property
+      def person_name(self):
+        if self.__name is None or self.__name == '' or type(self.__name) != str:
+            raise RuntimeError(f'Invalid name has been set: {self.__name}')
+        return self.__name
+
+
+      @person_name.setter
+      def person_name(self, name):
+        if type(name) != str:
+            raise RuntimeError(f'Person name must be string')
+
+        if name == '':
+            raise RuntimeError(f'Person name can not be empty')
+
+        self.__name = name
+but out side the class person_name will have a variable
+then inside the constractor we add them like :self.person_name = name
+  -----------------------------------------------------------------------------------------------
+--------------------------------------  Inheritance ---------------------------------------
+
+
+is A relationship ---> the common field can store in one class and with inheritance apply to other class
+ in java we have Extend but in Python just add it inside   (     )   class Dog (Animal):
+
+ one and more classes can be inherited by a class by specifying the parent classes in parentheses after the class name
+  Dog (Animal ,another parent class ,another parent class , ... ) so we do not have interface in Python
+
+  all the private method or variable are not inherited Constructors are not inherited
+
+  in java was Super keyword in Python we have super() to call a super class constructor and methods
+  super ()   -> access the parent class members
+  super().__init__(self,name,gender,...)
+
+                                Type of inheritance
+  1- single inheritance
+  2- hierarchical inheritance
+  3- multilevel inheritance
+  4-multiple inheritance  (Java did not support this one )
+
+
+  --------------------------------------------------------------------------------------------------
+
+-----------------------------------Abstraction -------------------------------------------
+
+
+-->hiding the implementation details of function from the user only the functionality will be provided to the user
+
+--> method without body in Parent class and BE MUST FOR CHILD CLASS TO IMPLEMENTED ABSTRACT METHOD (in JAVA) but Python is optional add method with body in child class
+
+two way to achive Abstraction :
+
+1- The base class : include common properties and methods of sub classes what will inherit, common methods will be declared without any implementations
+
+2- The Abstract class: a class that inherits the ABC class , and it includes abstract methods that must be implemented by subclass, the class can not be instantiate
+
+----------------------------Regular class in Python can achieve abstract class----------------
+
+ 1- by giving pass keyword inside method make it optional abstraction
+ 2-to be must abstraction   --> need    --> abc: module name (built in module)  ABC: Abstract class in abc module @abstractmethod
+----------------------------------------------------------------------------------
+ # right click /Generate /implement methods
+ ------------------------------------------------
+
+
+
 

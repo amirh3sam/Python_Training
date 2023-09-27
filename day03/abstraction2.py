@@ -32,14 +32,15 @@ class Shape(ABC):
         return f'{type(self).__name__}{self.__dict__}'
 
 
-class Square(Shape):
-
+class Square(Shape):  # by create class Square(shape):  immediately get warning to need to add abstract method in here
+    # you can create this class abstract by add ABC -->class Square(Shape , ABC): but you can not create
+    # object from this child class
     def __init__(self, side):
         super().__init__()
         self.side = side
 
     def area(self) -> numbers:
-        return self.side * self.side
+        return self.side * self.side  # here you can give different body for the abstract method with pass
 
 
 class Circle(Shape):
@@ -73,7 +74,7 @@ class Cube(Shape, Volume):
 
 
 class Cylinder(Shape, Volume):
-
+    # right click /Generate /implement methods
     def area(self) -> numbers:
         pass
 

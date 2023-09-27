@@ -24,5 +24,7 @@ when we looking for the two object referencing the same object
                 |__Must be same__|      |              |_________> Condition for filtering the elements of the iterable
                                         must be List/set/Tuple
   -------------------------------------------------------------------------------------------------
+--------------------------------------  Inheritance ---------------------------------------
+
 
 
