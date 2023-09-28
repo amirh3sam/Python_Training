@@ -12,6 +12,7 @@ class Shape:  # this is a base class still can create object from it
     def area(self) -> numbers:  # first way to achieve abstraction but is optional (base class abstraction)
         pass
 
+
     def __str__(self):
         return f'{type(self).__name__}{self.__dict__}'
 

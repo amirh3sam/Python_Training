@@ -1,14 +1,14 @@
-Packages in python treat as dependencies
+Packages in Python treat as dependencies
 but in Java is only like folder
 --------------------------------------
 pip - The Python Package Installer
 you can import any packages by clicking on Python package
 ------------------------------------
-in paython we do not have default value
+in paython we do not have a default value
 so any where in funtion you need default value you need to set by your self
 ---------------------------------------
-# if you want the two tuples are have same contents  we use '=='
-# if you want the two tuples referencing to the same object we use 'is'
+# if you have two tuples that the same contents  we use '=='
+# if you have two tuples that referencing to the same object we use 'is'
 # in java was different to see two data referencing to the same object we use ==
 -----------------------------------------------------------------------------------
 -> in java import was using to import class
@@ -48,7 +48,7 @@ class Employee:
 in java we had toString method : that is for allow me to get string version of the object
 so if we do not have this toString method we will get hash code
 
-in python to prevent to get the hash code we can use __str__() method
+in Python to prevent to get the hash code we can use __str__() method
 Build-in __str__() method is used for controlling what should be return when the class object is represented as a string
 -------------------------------------------------------------------
 only when we have inheritance protected will acceptable out side the class
@@ -72,7 +72,7 @@ Class can exist without any objects                      Object can not exist wi
 
 memory allocation for tuple  --> if you have multiple tuple that have exact same contents only one object will be allocated
 
-but when you have multiple list of objects that has the same contents  each object will be located separately in the python memory
+but when you have multiple list of objects that has the same contents  each object will be located separately in the Python memory
 --------------------------------------------------------------------------------------------------------- -
                                                        Encapsulation :
 
@@ -138,7 +138,7 @@ is A relationship ---> the common field can store in one class and with inherita
 
 --> method without body in Parent class and BE MUST FOR CHILD CLASS TO IMPLEMENTED ABSTRACT METHOD (in JAVA) but Python is optional add method with body in child class
 
-two way to achive Abstraction :
+two way to achieve Abstraction :
 
 1- The base class : include common properties and methods of sub classes what will inherit, common methods will be declared without any implementations
 
@@ -147,7 +147,7 @@ two way to achive Abstraction :
 ----------------------------Regular class in Python can achieve abstract class----------------
 
  1- by giving pass keyword inside method make it optional abstraction
- 2-to be must abstraction   --> need    --> abc: module name (built in module)  ABC: Abstract class in abc module @abstractmethod
+ 2-to be must abstraction   --> need    --> abc: module name (built in module)  ABC: Abstract class in abc module and for methods @abstractmethod
 ----------------------------------------------------------------------------------
  # right click /Generate /implement methods
  ------------------------------------------------
