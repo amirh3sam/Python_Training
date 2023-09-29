@@ -1,4 +1,26 @@
-Packages in Python treat as dependencies
+MOJO is like 99 % like paython but has main method like java
+every syntax is same with python
+
+https://www.modular.com/
+https://docs.modular.com/mojo/manual/basics/index.html
+
+and is 68000 faster than python and has performance of C
+all like pyhon library you can use
+
+
+-------------------------------------------------
+install these package :
+Web Automation:
+    BeautifulSoup4
+    request
+    pytest
+    robot
+
+Web Development:
+    Django
+    FastAPI
+    flask
+    ...Packages in Python treat as dependencies
 but in Java is only like folder
 --------------------------------------
 pip - The Python Package Installer
