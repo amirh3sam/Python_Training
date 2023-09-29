@@ -82,7 +82,7 @@ getter and setter
             public
             protected (_)
             Private (__)
-------------------------------------------------------------------------------------------------------------
+--------------------------------
 generating getter and setter :
 
                      @property
@@ -106,7 +106,7 @@ generating getter and setter :
         self.__name = name
 but out side the class person_name will have a variable
 then inside the constractor we add them like :self.person_name = name
-  -----------------------------------------------------------------------------------------------
+
 --------------------------------------  Inheritance ---------------------------------------
 
 
@@ -128,9 +128,6 @@ is A relationship ---> the common field can store in one class and with inherita
   3- multilevel inheritance
   4-multiple inheritance  (Java did not support this one )
 
-
-  --------------------------------------------------------------------------------------------------
-
 -----------------------------------Abstraction -------------------------------------------
 
 
@@ -148,10 +145,65 @@ two way to achieve Abstraction :
 
  1- by giving pass keyword inside method make it optional abstraction
  2-to be must abstraction   --> need    --> abc: module name (built in module)  ABC: Abstract class in abc module and for methods @abstractmethod
-----------------------------------------------------------------------------------
- # right click /Generate /implement methods
- ------------------------------------------------
 
+
+ -----------------------------------------Polymorphism----------------------------------------------------------------
+
+ Ability of the object take on many forms
+ Allows the objects of different classes tto be treated as the same type
+ the inheritance relationship between those different classes are required
+
+def display_area(shape: Shape):  # parameter's type is restricted to shape objects ONLY
+    print(f' the  {shape.name}\' area is {shape.area()} ')
+
+ ----------------------------------------------------------------------------------------
+achieve constant variable : you create private in constractor and generate getter and setter now is constant
+  def __init__(self, age: int):
+        self.__age = age
+
+    @property
+    def person_age(self):
+        return self.__age
+
+    @person_age.setter
+    def person_age(self, value):
+        raise RuntimeError(f' age is constant, can not be changed')
+
+-------------------------------------------------------------------------------------------------------------------
+ # right click /Generate /implement methods
+----------------------------------------------------------------------------------
+--------------------------------------------Executions-------------------------------------
+an unwanted event -->  error and exception is together
+we do not use the class in python but in java you have to give what type of execution is
+------------------------------------------------------------------
+try
+{Run the code}
+except {Run the code if an exception occur }
+---------------------------------------------------------------------
+try:
+#try block statements
+#some code that might throw exception
+except:
+#except block statements
+#handeles exception   ->you can give multiple but not needed
+--------------------------------------------------------------
+
+try
+    #try block   # try block and else block always execute together
+    #except block   # only execute when the condition of this except is false
+else:
+    #else block
+finally:
+    #finally block  # just like java
+
+    In Java
+    throw: used for manually throwing exception
+    throws: for exception handling (in method signature)
+
+
+   In Python for throw we have rise! and for throws:
+   we don't anything because Python is interpreter no error during compile time only run time!!!!
+--------------------------------------------------------------------------------------------------
 
 
 

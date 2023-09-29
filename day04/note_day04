@@ -1,0 +1,9 @@
+List and Tuple accept duplicate
+
+but set not accepting any duplicate and element are not changeable
+
+to create set  using  {   , , , ,  }
+element are unordered and unchangeable andcan be of any data type
+
+
+
